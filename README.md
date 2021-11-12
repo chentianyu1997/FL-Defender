@@ -1,2 +1,2 @@
-# LFA-Defender
-LFA-Defender: How to Defend against Label-flipping Attack in Federated Learning
+# How to Defend against the Label-flipping Attack in Federated Learning.
+This repository contains PyTorch implementation of the paper: How to Defend against the Label-flipping Attack in Federated Learning.
