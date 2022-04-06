@@ -32,7 +32,7 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 *Robustness to the label-flipping attacks.* </br></br>
 
 ### Robustness to backdoor attacks
-<img src="backdoor_plot.pdf" width="100%">
+<img src="backdoor_plot2.pdf" width="100%">
 
 *Robustness to backdoor attacks.* </br></br>
 
