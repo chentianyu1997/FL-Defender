@@ -31,9 +31,10 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 *Robustness to the label-flipping attacks.* </br></br>
 
-<img src="results/cifar10_mild_robust.PNG" width="100%">
+### Robustness to backdoor attacks
+<img src="backdoor_plot.pdf" width="100%">
 
-*Robustness to the label-flipping attack on the CIFAR10-Mild benchmark.* </br></br>
+*Robustness to backdoor attacks.* </br></br>
 
 <img src="results/imdb_robust.PNG" width="100%">
 
