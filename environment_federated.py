@@ -110,13 +110,12 @@ class Peer():
                     ptarget[:] = target_class
                     data = torch.cat([data, pdata], dim=0)
                     target = torch.cat([target, ptarget], dim=0)
-                    
+                
+                model.zero_grad() 
                 output = model(data)
                 loss = self.criterion(output, target)
                 loss.backward()    
                 optimizer.step()
-                model.zero_grad()
-                optimizer.zero_grad()
                 epoch_loss.append(loss.item())
             epochs_loss.append(np.mean(epoch_loss))
     
